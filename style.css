@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+body {
+    background-color: rgb(150, 0, 0);
+}
+
+.in {
+    margin: 10px;
+    border: 6px double white;
+    border-radius: 10px;
+    height: 234px;
+    width: auto;
+}
+
+.in:hover {
+    border-color: aqua;
+}
+
+.nav {
+    height: 16vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.l {
+    color: white;
+    margin-left: 130px;
+    font-size: 30px;
+}
+.l:hover {
+    color: wheat;
+    text-decoration: solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fg {
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+    text-shadow: 0 0 2px white, 0 0 4px white, 0 0 6px white, 0 0 8px white;
+    animation-name: s;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes s {
+    0% {
+        transform: scale(1.03);
+        text-shadow: 0 0 2px white, 0 0 4px white, 0 0 6px white, 0 0 8px white;
+    }
+    100% {
+        color: white;
+        font-size: 50px;
+        margin-left: 40px;
+    }
+}
+
+.footer {
+    height: 20vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.linke {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.youtu {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.copy {
+    color: white;
+    font-size: 20px;
+    margin-left: 400px;
+    cursor: default;
+}
+
+.ab {
+    color: white;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 500px;
+    text-align: center;
+}
+.abt {
+    margin-bottom: 20px;
+}
